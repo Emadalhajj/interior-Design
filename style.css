@@ -1,0 +1,288 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfc;
+}
+.containers{
+    width: 90%;
+    /* height: 6000px; */
+    margin: auto;
+}
+
+.logo-div{
+    display: flex;
+    justify-content: space-between;
+}
+.NavLink ul{   
+    gap: 45px;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    color: #000;
+}
+.NavLink ul li a{
+    color: black;
+    font-weight: bold;
+}
+
+.content-section {
+     padding: 50px 0;
+  
+  }
+ 
+  .sectionOne{
+    margin-top:30px ;
+
+    
+  }
+
+  .content-section h2 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+ 
+  .content-section p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  .infoContainer{
+   
+    display: flex;
+    align-items: start;
+    justify-content: start;
+  }
+  
+  .infoContainer div button{
+    margin-bottom: 50px 0;
+  }
+  /*section 2*/
+  .stats {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.project-btn {
+    margin-bottom: 20px;
+}
+.image-container img {
+    height: auto;
+    border-radius: 10px;
+}
+.scroll-btn {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 50%; */
+    text-align: center;
+    margin-top: 20px;
+    bottom: 0px;
+    right: 0;
+}
+.backSquer{
+    width: 160px;
+    height: 160px;
+    z-index: -1;
+    border: 2px solid black;
+    border-radius: 5px;
+    top: -50px;
+    left: -20px;
+    
+}
+/*services section */
+.lineSerices{
+    width: 100px;
+    height: 5px;
+    background-color: #000;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 25px;
+  
+}
+.infoServices{
+   margin-left: 15px;
+    text-align: start;
+}
+
+/*section  designing */
+.designing{
+    margin-top: 100px;
+    
+    
+
+}
+.designImage{
+    justify-content: space-between;
+    
+}
+.desInfoPuls div{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.288);
+    padding:  10px 0;
+}
+.desInfoPuls div i{
+    font-size: 25px;
+}
+
+/*section steps*/
+.stepss{
+    padding-top: 100px;
+}
+.strProj01 div i {
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+    line-height: 1.9;
+
+}
+
+ .strProj02{
+    text-align: start;
+    margin-left: 30px;
+
+}
+
+
+.strProj02 h5, .strProj02 p  {
+    display: block;
+    width: 80%;
+   
+}
+
+/*our custmers*/
+.TextrightPart h2{
+    font-size: 50px;
+   
+}
+
+
+.IconsOurC i{
+font-size: 30px;
+border-radius: 6PX;
+font-weight: bold;
+
+
+}
+.CustomOne {
+    top: 180px;
+    left: 30%;
+    font-size: 20px;
+      
+}
+.Customtow{
+    top: 50px;
+    font-size: 20px;
+  
+}
+
+.Our-Services {
+    padding: 20px;
+  }
+  
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .leftPart, .rightPart {
+    flex: 1 1 50%;
+    padding: 10px;
+  }    
+
+  @media (max-width: 768px) {
+    .parent {
+      flex-direction: column;
+    }
+  
+    .leftPart, .rightPart {
+      flex: 1 1 100%;
+      position:static ;
+    }
+  
+    .IconsOurC {
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    .CustomOne, .Customtow {
+      width: 100%;
+      margin: 10px 0;
+    }
+    .TextrightPart h2{
+        opacity: 0;
+    }
+  }
+  
+  
+/*subscribtion*/
+.subscribtion{
+    padding-top: 50px;
+    transition: 0.3s ease, color 0.3s ease;
+}
+/*footer*/
+footer{
+    background-color: #1f1f1f;
+}
+.socialIcons a{
+    color: white;
+    margin-right: 10px;
+  
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+.socialIcons a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    transition: color 0.3s ease;
+}
+
+  /* Hover effects */
+  .facebook:hover {
+    background-color: #3b5998; /* Facebook color */
+    color: white;
+  }
+
+  .facebook:hover i , .twitter:hover i , .instagram:hover i ,   .linkedin:hover i{
+    color: white;
+   
+  }
+
+  .twitter:hover {
+    background-color: #00acee; /* Twitter color */
+    color: white;
+  }
+
+
+  .instagram:hover {
+    background-color: #C13584; /* Instagram color */
+    color: white;
+  }
+
+
+
+  .linkedin:hover {
+    background-color: #0077b5; /* LinkedIn color */
+    color: white;
+  }
+
+ 
