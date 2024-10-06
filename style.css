@@ -13,8 +13,7 @@ body{
 }
 
 .logo-div{
-    display: flex;
-    justify-content: space-between;
+ margin-left: -20px;
 }
 .NavLink ul{   
     gap: 45px;
@@ -66,6 +65,7 @@ body{
     margin-bottom: 50px 0;
   }
   /*section 2*/
+
   .stats {
     font-size: 2rem;
     font-weight: bold;
@@ -88,8 +88,9 @@ body{
     /* border-radius: 50%; */
     text-align: center;
     margin-top: 20px;
-    bottom: 0px;
+    bottom: 0;
     right: 0;
+
 }
 .backSquer{
     width: 160px;
@@ -100,6 +101,17 @@ body{
     top: -50px;
     left: -20px;
     
+}
+@media  (max-width: 768px) {
+  .scroll-btn {
+    right: 15px;
+  }
+  .backSquer{
+    top: -40px;
+    left: 0;
+
+  }
+ 
 }
 /*services section */
 .lineSerices{
@@ -118,9 +130,7 @@ body{
 
 /*section  designing */
 .designing{
-    margin-top: 100px;
-    
-    
+    /* margin-top: 100px; */ 
 
 }
 .designImage{
